@@ -21,12 +21,7 @@ This cluster runs on the following hardware (all nodes are running bare-metal on
 | Device                                  | Count | OS Disk Size | Data Disk Size       | Ram  | Purpose                                          |
 |-----------------------------------------|-------|--------------|----------------------|------|--------------------------------------------------|
 | Lenovo ThinkCentre M93p Tiny (i5-4570T) | 1     | 250GB SSD    | N/A                  | 8GB  | k3s Master                                       |
-| Intel NUC8i5BEH                         | 1     | 512GB NVMe   | 1TB SSD (longhorn)   | 32GB | k3s Worker                                       |
-| Intel NUC8i5BEH                         | 1     | 480GB SS D   | 1TB NVMe             | 32GB | k3s Worker                                       |
-| Intel NUC8i3BEH                         | 1     | 512GB NVMe   | 1TB SSD (longhorn)   | 32GB | k3s Worker                                       |
-| Synology NAS (librarium)                | 1     | N/A          | 3x6TB SHR, 512GB SSD | 8GB  | Media and general (S3-compatible) storage bucket |
 
----
 ## Community
 
 We've got a vibrant community of folks all running various Kubernetes workloads at home. Click the Discord link above to join us!
@@ -39,3 +34,25 @@ A lot of inspiration for this repo came from the following people:
 - [billimek/k8s-gitops](https://github.com/billimek/k8s-gitops)
 - [carpenike/k8s-gitops](https://github.com/carpenike/k8s-gitops)
 - [dcplaya/k8s-gitops](https://github.com/dcplaya/k8s-gitops)
+
+## Internal Wish List
+- PiHole
+- Grocy
+- NextCloud
+- UniFi MGMT
+- VSCode self-hosted
+- Ghidra server?
+- Git tea
+- EQServer
+- PLONK stack
+- bitwardenrs
+- s4 ipfs s3 
+- heimdall?
+- trango?
+- zerotier moon?
+- slingcode
+- calibre web
+- duplicati
+- esphome
+- frigate
+- node-red
